@@ -41,3 +41,35 @@
 .ex-5-square:active {
   transform: scale(0.5,0.5);
 }
+
+/* esercizio 6 */
+.ex-6-img:hover {
+  filter: grayscale(100%);
+}
+
+/* esercizio 7 */
+.ex-7-img {
+  transition: filter 2s;
+}
+.ex-7-img:hover {
+  filter: sepia(70%);
+}
+
+/* esercizio 8 */
+.ex-8-img {
+  transition: all 2s;
+}
+.ex-8-img:hover {
+  filter: grayscale(60%) sepia(60%);
+  border-radius: 20px;
+}
+
+/* esercizio 9 */
+.ex-9-img {
+  transition: all 2s;
+}
+.ex-9-img:hover {
+  transform: scale(1.5, 1.5);
+  filter: grayscale(60%) sepia(60%);
+  border-radius: 20px;
+}
